@@ -24,9 +24,9 @@ axis([0,100,-0.00000005,0.00000005])
 %text('Interpreter','latex','String','$$\frac{\mbox{error}}{n!}$$','Position',[-8,0.0],'FontSize',fs)
 %text('Interpreter','latex','String','$$n$$','Position',[49.4,-0.000000057],'FontSize',fs)
 %text('Interpreter','latex','String','Relative Accuracy of These Approximations to $$n!$$','Position',[10,0.000000054],'FontSize',fs)
-text('Interpreter','latex','String','$$\sqrt{2\pi \, n \,} \, \left( n/e \right)^{\,\, n} \exp\left( 1/12 n - 1/360 n^3 + 1/1260 n^5 \right)$$','Position',[7,0.000000004],'FontSize',sf)
-text('Interpreter','latex','String','$$\sqrt{2\pi \, n \,} \, \left( n/e \right)^{\,\, n} \exp\left( 1/12 n \right)$$','Position',[47,0.00000003],'FontSize',sf)
-text('Interpreter','latex','String','$$\sqrt{2\pi \, n \,} \, \left( n/e \right)^{\,\, n} \left( 1 + 1/2 n + 1/8 n^2 \right)^{\quad 1/6}$$','Position',[29,-0.00000003],'FontSize',sf)
+text('Interpreter','latex','String','$$\sqrt{2\pi  n \,} \, \left( n/e \right)^{n} \exp\left( 1/12 n - 1/360 n^3 + 1/1260 n^5 \right)$$','Position',[7,0.000000004],'FontSize',sf)
+text('Interpreter','latex','String','$$\sqrt{2\pi  n \,} \, \left( n/e \right)^{n} \exp\left( 1/12 n \right)$$','Position',[47,0.00000003],'FontSize',sf)
+text('Interpreter','latex','String','$$\sqrt{2\pi  n \,} \, \left( n/e \right)^{n} \left( 1 + 1/2 n + 1/8 n^2 \right)^{1/6}$$','Position',[29,-0.00000003],'FontSize',sf)
 textt='Relative Accuracy of Mermin and Ramanujan Estimates of $n!$'
 %title(textt,'Interpreter','latex','FontSize',fs)
 textx='$n$'
